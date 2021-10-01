@@ -73,7 +73,7 @@ body{
 .descripcion{
     background-color: #8ecae6;
     border-radius: 10px;
-    padding: 2%;
+    padding: 6% 2%;
     width: 20%;
 }
 
@@ -290,4 +290,24 @@ body{
 .foto img{
     width: 95%;
     margin-top: -13px;
+}
+
+.type{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.t{
+    width: 40%;
+}
+
+.type2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.t2{
+    margin-top: 0px;
+    width: 44%;
 }

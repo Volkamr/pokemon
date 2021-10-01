@@ -12,18 +12,18 @@
     
     <div class="nav">
         <ul>
-            <li> <a href="#"> Home </a> </li>
-            <li> <a href="#"> Vs </a> </li>
+            <li> <a href="#home"> Home </a> </li>
+            <li> <a href="#vs"> Vs </a> </li>
             <li> <a href="#"> Team </a> </li>
             <li> <a href="#"> Myself </a> </li>
         </ul>
     </div>
 
-    <div class="principal">
+    <div class="principal" id="home">
         <img src="img/wp8797760.jpg" alt="principal">
     </div>
 
-    <div class="versus">
+    <div class="versus" id="vs">
         <div class="descripcion">
             <h1> Duel </h1>
             <p> Pokemon is a video game series characterized by duels between pokemos. so why not make one? 
@@ -32,13 +32,21 @@
         </div>
         <div class="visualizacion">
             <div class="pokemon1">
-                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="duelo1">
+                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="duelo1" onclick="tipo()">
                 <p id="duelo1p"> Name </p>
+                <div class="type">
+                    <p class="t" id="duelope"> peso </p>
+                    <p class="t" id="dueloal"> altura </p>
+                </div>
             </div>
             <h1> VS </h1>
             <div class="pokemon2">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="duelo2">
                 <p id="duelo2p"> Name </p>
+                <div class="type">
+                    <p class="t" id="duelope2"> peso </p>
+                    <p class="t" id="dueloal2"> altura </p>
+                </div>
             </div>
         </div>
     </div>
@@ -54,18 +62,34 @@
             <div class="poke">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team1">
                 <p id="team1p"> Name </p>
+                <div class="type2">
+                    <p class="t2" id="teampe1"> peso </p>
+                    <p class="t2" id="teamal1"> altura </p>
+                </div>
             </div>
             <div class="poke">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team2">
                 <p id="team2p"> Name </p>
+                <div class="type2">
+                    <p class="t2" id="teampe2"> peso </p>
+                    <p class="t2" id="teamal2"> altura </p>
+                </div>
             </div>
             <div class="poke">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team3">
                 <p id="team3p"> Name </p>
+                <div class="type2">
+                    <p class="t2" id="teampe3"> peso </p>
+                    <p class="t2" id="teamal3"> altura </p>
+                </div>
             </div>
             <div class="poke">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team4">
                 <p id="team4p"> Name </p>
+                <div class="type2">
+                    <p class="t2" id="teampe4"> peso </p>
+                    <p class="t2" id="teamal4"> altura </p>
+                </div>
             </div>
         </div>
     </div>
