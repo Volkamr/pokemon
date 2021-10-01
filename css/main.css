@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans+KR:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fefae0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    width: 96%;
+}
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    padding: 0.5%;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    border-radius: 30px;
+    width: 80px;
+    height: auto;
+    text-align: center;
+    background-color: #219ebc;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 10%;
+    font-size: 16.8px;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav ul li a:hover{
+    background-color: #023047;
+    transition: 0.7s;
+    margin-top: -10px;
+
+}
+
+.nav img{
+    width: 30%;
+    padding-left: 15%;
+}
+
+.principal{
+    border-radius: 30px;
+    width: 90%;
+    height: 460px;
+    overflow: hidden;
+    margin-left: 5%;
+}
+
+.principal img{
+    width: 100%;
+}
+
+.versus{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.descripcion{
+    background-color: #8ecae6;
+    border-radius: 10px;
+    padding: 2%;
+    width: 20%;
+}
+
+.descripcion h1{
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.descripcion p{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.descripcion input{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    background-color: #023047;
+    padding: 1%;
+    border-radius: 30px;
+    opacity: 0.9;
+    margin-top: 10%;
+}
+
+.descripcion input:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.visualizacion{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 2%;
+    width: 70%;
+    border-radius: 30px;
+}
+
+.pokemon1 img{
+    width: 80%;
+    margin: 1% 10%;
+    margin-bottom: 5%;
+    transition: 0.6s;
+}
+
+.pokemon1 img:hover{
+    margin-top: -50px;
+    transition: 0.7s;
+}
+
+.pokemon1 p{
+    text-align: center;
+    padding: 2%;
+    background-color: #fb8500;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-radius: 30px;
+    margin: 0px;
+}
+
+.visualizacion h1{
+    width: 20%;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin: 5%;
+}
+
+.pokemon2 img{
+    width: 80%;
+    margin: 1% 10%;
+    margin-bottom: 5%;
+    transition: 0.6s;
+}
+
+.pokemon2 img:hover{
+    margin-top: -50px;
+    transition: 0.7s;
+}
+
+.pokemon2 p{
+    text-align: center;
+    padding: 2%;
+    background-color: #ffb703;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-radius: 30px;
+    margin: 0px;
+}
+
+.teams{
+    margin: 0% 5%;
+}
+
+.descripciont h1{
+    background-color: #ffb703;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 0px;
+}
+
+.descripciont p{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2% 5%;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+.descripciont input{
+    width: 15%;
+    height: auto;
+    margin: 0% 5%;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    background-color: #023047;
+    padding: 0.5%;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+.descripciont input:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.visualizaciont{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.7%;
+}
+
+.visualizaciont img{
+    width: 80%;
+    margin: 1% 10%;
+    transition: 0.6s;
+}
+
+.visualizaciont img:hover{
+    margin-top: -30px;
+    transition: 0.7s;
+}
+
+.poke{
+    padding: 1%;
+    margin: 0.3%;
+}
+
+.poke p{
+    text-align: center;
+    padding: 2%;
+    background-color: #fb8500;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-radius: 30px;
+}
+
+.creditos{
+    background-color:#219ebc;
+    margin: 2% 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    border-radius: 30px;
+}
+
+.descripcionp{
+    padding: 2%;
+    width: 45%;
+    height: auto;
+}
+
+.descripcionp h1{
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.descripcionp p{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.foto{
+    background-color: #023047;
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.foto:hover{
+    background-image: url(../img/fondof.gif);
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+    transition: 0.7s;
+}
+
+.foto img{
+    width: 95%;
+    margin-top: -13px;
+}
