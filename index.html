@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
     <title>Pokemon</title>
 </head>
 <body>
@@ -27,17 +28,17 @@
             <h1> Duel </h1>
             <p> Pokemon is a video game series characterized by duels between pokemos. so why not make one? 
                 Click the DUEL button to create a random duel! </p>
-            <input type="button" value="DUEL!">
+            <input type="button" value="DUEL!" onclick="duelo()">
         </div>
         <div class="visualizacion">
             <div class="pokemon1">
-                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball">
-                <p> Name </p>
+                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="duelo1">
+                <p id="duelo1p"> Name </p>
             </div>
             <h1> VS </h1>
             <div class="pokemon2">
-                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball">
-                <p> Name </p>
+                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="duelo2">
+                <p id="duelo2p"> Name </p>
             </div>
         </div>
     </div>
@@ -47,24 +48,24 @@
             <h1> Create a Team </h1>
             <p> Another of the greatest characteristics of pokemon is its great variety of pokemons with which you can create
                  a link and form a team. Click on the TEAM button to create a random team </p>
-            <input type="button" value="TEAM">
+            <input type="button" value="TEAM" onclick="equipo()">
         </div>
         <div class="visualizaciont">
             <div class="poke">
-                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball">
-                <p> Name </p>
+                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team1">
+                <p id="team1p"> Name </p>
             </div>
             <div class="poke">
-                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball">
-                <p> Name </p>
+                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team2">
+                <p id="team2p"> Name </p>
             </div>
             <div class="poke">
-                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball">
-                <p> Name </p>
+                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team3">
+                <p id="team3p"> Name </p>
             </div>
             <div class="poke">
-                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball">
-                <p> Name </p>
+                <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team4">
+                <p id="team4p"> Name </p>
             </div>
         </div>
     </div>
