@@ -9,15 +9,6 @@
     <title>Pokemon</title>
 </head>
 <body>
-    
-    <div class="nav">
-        <ul>
-            <li> <a href="#home"> Home </a> </li>
-            <li> <a href="#vs"> Vs </a> </li>
-            <li> <a href="#"> Team </a> </li>
-            <li> <a href="#"> Myself </a> </li>
-        </ul>
-    </div>
 
     <div class="principal" id="home">
         <img src="img/wp8797760.jpg" alt="principal">
@@ -35,8 +26,8 @@
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="duelo1" onclick="tipo()">
                 <p id="duelo1p"> Name </p>
                 <div class="type">
-                    <p class="t" id="duelope"> peso </p>
-                    <p class="t" id="dueloal"> altura </p>
+                    <p class="t" id="dueloa"> Attack </p>
+                    <p class="t" id="duelod"> Defense </p>
                 </div>
             </div>
             <h1> VS </h1>
@@ -44,8 +35,8 @@
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="duelo2">
                 <p id="duelo2p"> Name </p>
                 <div class="type">
-                    <p class="t" id="duelope2"> peso </p>
-                    <p class="t" id="dueloal2"> altura </p>
+                    <p class="t" id="dueloa2"> Attack </p>
+                    <p class="t" id="duelod2"> Defense </p>
                 </div>
             </div>
         </div>
@@ -61,36 +52,51 @@
         <div class="visualizaciont">
             <div class="poke">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team1">
-                <p id="team1p"> Name </p>
+                <h1 id="team1p"> Name </h1>
                 <div class="type2">
-                    <p class="t2" id="teampe1"> peso </p>
-                    <p class="t2" id="teamal1"> altura </p>
+                    <p class="t2" id="teama1"> peso </p>
+                    <p class="t2" id="teamd1"> altura </p>
                 </div>
             </div>
             <div class="poke">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team2">
-                <p id="team2p"> Name </p>
+                <h1 id="team2p"> Name </h1>
                 <div class="type2">
-                    <p class="t2" id="teampe2"> peso </p>
-                    <p class="t2" id="teamal2"> altura </p>
+                    <p class="t2" id="teama2"> peso </p>
+                    <p class="t2" id="teamd2"> altura </p>
                 </div>
             </div>
             <div class="poke">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team3">
-                <p id="team3p"> Name </p>
+                <h1 id="team3p"> Name </h1>
                 <div class="type2">
-                    <p class="t2" id="teampe3"> peso </p>
-                    <p class="t2" id="teamal3"> altura </p>
+                    <p class="t2" id="teama3"> peso </p>
+                    <p class="t2" id="teamd3"> altura </p>
                 </div>
             </div>
             <div class="poke">
                 <img src="img/769px-Pokebola-pokeball-png-0.png" alt="pokeball" id="team4">
-                <p id="team4p"> Name </p>
+                <h1 id="team4p"> Name </h1>
                 <div class="type2">
-                    <p class="t2" id="teampe4"> peso </p>
-                    <p class="t2" id="teamal4"> altura </p>
+                    <p class="t2" id="teama4"> peso </p>
+                    <p class="t2" id="teamd4"> altura </p>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="solo">
+        <div class="lateral">
+            <img src="img/769px-Pokebola-pokeball-png-0.png" alt="" id="pokecomp" onclick="poketotal()">
+            <h1 id="nombre"> name </h1>
+        </div>
+        <div class="datos">
+            <p id="vida"> Hp </p>
+            <p id="ataque"> Attack </p>
+            <p id="defensa"> Defense </p>
+            <p id="ataque especial"> Special-Attack </p>
+            <p id="defensa especial"> Special-Defense </p>
+            <p id="velocidad" > Speed </p>
         </div>
     </div>
 

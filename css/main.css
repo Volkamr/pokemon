@@ -7,57 +7,12 @@ body{
     background-color: #fefae0;
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2%;
-    width: 96%;
-}
-
-.nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    height: 50px;
-    align-items: center;
-    padding: 0.5%;
-}
-
-.nav ul li a{
-    text-decoration: none;
-    display: block;
-    border-radius: 30px;
-    width: 80px;
-    height: auto;
-    text-align: center;
-    background-color: #219ebc;
-    font-family: 'Fjalla One', sans-serif;
-    padding: 10%;
-    font-size: 16.8px;
-    color: white;
-    transition: 0.5s;
-}
-
-.nav ul li a:hover{
-    background-color: #023047;
-    transition: 0.7s;
-    margin-top: -10px;
-
-}
-
-.nav img{
-    width: 30%;
-    padding-left: 15%;
-}
-
 .principal{
     border-radius: 30px;
     width: 90%;
-    height: 460px;
+    height: 40%;
     overflow: hidden;
-    margin-left: 5%;
+    margin: 5%;
 }
 
 .principal img{
@@ -119,11 +74,21 @@ body{
     margin: 1%;
     margin-bottom: 5%;
     transition: 0.6s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3%;
+    border-radius: 50%;
+    transition: 0.6s;
 }
 
 .pokemon1 img:hover{
     margin-top: -50px;
     transition: 0.7s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 3%;
+    background-color: #023047;
 }
 
 .pokemon1 p{
@@ -149,11 +114,21 @@ body{
     margin: 1%;
     margin-bottom: 5%;
     transition: 0.6s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3%;
+    border-radius: 50%;
+    transition: 0.6s;
 }
 
 .pokemon2 img:hover{
     margin-top: -50px;
     transition: 0.7s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 3%;
+    background-color: #023047;
 }
 
 .pokemon2 p{
@@ -210,6 +185,7 @@ body{
 .visualizaciont{
     display: flex;
     justify-content: space-around;
+    width: 100%;
     padding: 1.7%;
 }
 
@@ -217,21 +193,47 @@ body{
     width: 200px;
     margin: 1%;
     transition: 0.6s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3%;
+    border-radius: 50%;
+    transition: 0.6s;
 }
 
 .visualizaciont img:hover{
     margin-top: -30px;
     transition: 0.7s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 3%;
+    background-color: #ffb703;
 }
 
 .poke{
     padding: 1%;
     margin: 0.3%;
+    text-align: center;
+    width: 21%;
+}
+
+.poke h1{
+    text-align: center;
+    width: 92%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #fb8500;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border-radius: 30px;
 }
 
 .poke p{
     text-align: center;
+    width: 100%;
     padding: 2%;
+    margin: 2%;
     background-color: #fb8500;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -310,4 +312,70 @@ body{
 .t2{
     margin-top: 0px;
     width: 44%;
+}
+
+.solo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0% 5%;
+}
+
+.lateral{
+    background-color: aqua;
+    border-radius: 30px;
+    text-align: center;
+    width: 40%;
+    padding: 2% 1%;
+}
+
+.solo img{
+    width: 300px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 3%;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.solo img:hover{
+    padding: 3%;
+    background-color: #023047;
+    margin-top: -60px;
+    transition: 0.7s;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.solo h1{
+    background-color:#219ebc;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 0px;
+}
+
+.datos{
+    width: 40%;
+    padding: 2%;
+    margin: 3%;
+}
+
+.datos p{
+    background-color: #ffb703;
+    border-radius: 30px;
+    padding: 2%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.6s;
+    border-left: 0px solid #023047;
+}
+
+.datos p:hover{
+    border-left: 10px solid #023047;
+    transition: 0.7s;
 }
