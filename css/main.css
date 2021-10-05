@@ -207,10 +207,6 @@ body{
     transition: 0.6s;
 }
 
-.poke:hover{
-    margin-top: -15px;
-}
-
 .poke{
     padding: 1%;
     margin: 0.3%;
@@ -378,4 +374,116 @@ body{
 .datos p:hover{
     border-left: 10px solid #023047;
     transition: 0.7s;
+}
+
+@media only screen and (max-width: 1275px) {
+    .visualizaciont{
+        display: initial;
+        position: relative;
+    }
+    .poke{
+        float: left;
+        width: 40%;
+        margin: 5% 4%;
+    }
+    .solo{
+        float: left;
+        width: 90%;
+    }
+    .creditos{
+        float: right;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1137px){
+    .versus{
+        display: initial;
+    }
+    .descripcion{
+        margin: 2% 5%;
+        width: 86%;
+        height: 230px;
+    }
+    .descripcion input{
+        margin-top: 3%;
+    }
+    .descripcion h1{
+        text-align: center;
+    }
+    .visualizacion{
+        margin: 2% 5%;
+        width: 86%;
+    }
+}
+
+@media only screen and (max-width: 885px){
+    .solo{
+        width: 100%;
+        margin: 3% 0%;
+    }
+    .lateral{
+        width: 50%;
+    }
+    .datos{
+        width: 30%;
+        margin: 0%;
+    }
+}
+
+@media only screen and (max-width: 819px){
+    .visualizacion{
+        display: initial;
+        text-align: center;
+    }
+
+    .pokemon1{
+        width: 80%;
+        margin: 0% 7%;
+    }
+
+    .pokemon2{
+        width: 80%;
+        margin: 0% 7%;
+    }
+
+    .versus h1{
+        text-align: center;
+        width: 87%;
+    }
+}
+
+@media only screen and (max-width: 723px){
+    .solo{
+        display: initial;
+        margin: 7% 5%;
+        margin-bottom: 3%;
+    }
+    .datos{
+        width: 83%;
+    }
+    .lateral{
+        width: 87%;
+    }
+}
+
+@media only screen and (max-width: 675px){
+    .poke{
+        width: 87%;
+    }
+    .creditos{
+        display: initial;
+    }
+    .descripcionp{
+        width: 100%;
+    }
+    .foto{
+        display: none;
+    }
+    .solo{
+        margin-top: 18%;
+    }
+    .descripcion{
+        height: 285px;
+    }
 }

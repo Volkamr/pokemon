@@ -4,7 +4,6 @@ let ataque1, ataque2;
 let defensa1, defesensa2;
 let fondofondo, fondofondo2;
 
-
 const colors = {
 	fire: '#fca311',
 	grass: '#606c38',
