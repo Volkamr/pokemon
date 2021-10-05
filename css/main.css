@@ -22,6 +22,8 @@ body{
 .versus{
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    height: 500px;
     margin: 5%;
 }
 
@@ -69,32 +71,35 @@ body{
     border-radius: 30px;
 }
 
+.pokemon1{
+    border-radius: 30px;
+    align-content: center;
+    padding: 3%;
+    position: relative;
+    transition: 0.6s;
+    transform: scale(0.9);
+}
+
+.pokemon1:hover{
+    transform: scale(1);
+    transition: 0.7s;
+}
+
 .pokemon1 img{
     width: 300px;
-    margin: 1%;
     margin-bottom: 5%;
     transition: 0.6s;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    padding: 3%;
     border-radius: 50%;
     transition: 0.6s;
 }
 
-.pokemon1 img:hover{
-    margin-top: -50px;
-    transition: 0.7s;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    padding: 3%;
-    background-color: #023047;
-}
 
 .pokemon1 p{
     text-align: center;
     padding: 2%;
-    background-color: #fb8500;
+    background-color: #1b512d;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
@@ -109,32 +114,34 @@ body{
     margin: 5%;
 }
 
+.pokemon2{
+    border-radius: 30px;
+    align-content: center;
+    padding: 3%;
+    position: relative;
+    transition: 0.6s;
+    transform: scale(0.9);
+}
+
+.pokemon2:hover{
+    transform: scale(1);
+    transition: 0.7s;
+}
+
 .pokemon2 img{
     width: 300px;
-    margin: 1%;
     margin-bottom: 5%;
     transition: 0.6s;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    padding: 3%;
     border-radius: 50%;
     transition: 0.6s;
-}
-
-.pokemon2 img:hover{
-    margin-top: -50px;
-    transition: 0.7s;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    padding: 3%;
-    background-color: #023047;
 }
 
 .pokemon2 p{
     text-align: center;
     padding: 2%;
-    background-color: #ffb703;
+    background-color: #1b512d;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
@@ -186,7 +193,7 @@ body{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 1.7%;
+    margin: 3% 0%;
 }
 
 .visualizaciont img{
@@ -200,14 +207,8 @@ body{
     transition: 0.6s;
 }
 
-.visualizaciont img:hover{
-    margin-top: -30px;
-    transition: 0.7s;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    padding: 3%;
-    background-color: #ffb703;
+.poke:hover{
+    margin-top: -15px;
 }
 
 .poke{
@@ -215,6 +216,8 @@ body{
     margin: 0.3%;
     text-align: center;
     width: 21%;
+    border-radius: 30px;
+    transition: 0.7s;
 }
 
 .poke h1{
@@ -222,7 +225,7 @@ body{
     width: 92%;
     padding: 2%;
     margin: 2%;
-    background-color: #fb8500;
+    background-color: #1b512d;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
@@ -234,7 +237,7 @@ body{
     width: 100%;
     padding: 2%;
     margin: 2%;
-    background-color: #fb8500;
+    background-color: #1c7c54;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
@@ -322,27 +325,24 @@ body{
 }
 
 .lateral{
-    background-color: aqua;
+    background-color: #1c7c54;
     border-radius: 30px;
     text-align: center;
     width: 40%;
+    height: 320px;
     padding: 2% 1%;
 }
 
 .solo img{
     width: 300px;
+    margin-top: -60px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    padding: 3%;
     border-radius: 50%;
-    transition: 0.6s;
+    transition: 0.7s;
 }
 
 .solo img:hover{
-    padding: 3%;
-    background-color: #023047;
-    margin-top: -60px;
-    transition: 0.7s;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -350,7 +350,7 @@ body{
 }
 
 .solo h1{
-    background-color:#219ebc;
+    background-color: #b1cf5f;
     text-align: center;
     border-radius: 30px;
     font-size: 40px;
