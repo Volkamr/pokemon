@@ -7,16 +7,18 @@ body{
     background-color: #fefae0;
 }
 
-.principal{
-    border-radius: 30px;
-    width: 90%;
-    height: 40%;
-    overflow: hidden;
-    margin: 5%;
+picture{
+    display: block;
+    margin: 2% 5%;
+    padding: 2%;
+    width: 85%;
 }
 
-.principal img{
+.principal{
+    border-radius: 30px;
     width: 100%;
+    overflow: hidden;
+    height: 40%;
 }
 
 .versus{
