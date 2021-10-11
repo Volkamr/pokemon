@@ -7,6 +7,104 @@ body{
     background-color: #fefae0;
 }
 
+.navegador ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	background-color: #333;
+	overflow: hidden;
+	width: 99.58%;
+}
+
+.navegador li{
+	float: left;
+}
+
+.navegador li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.toggle{
+	width: 32px;
+	float: right;
+	margin-top: -30px;
+	margin-left: 5px;
+	display: none;
+}
+
+.navegador li a:hover{
+	background-color: #e0d3c4;
+	color: black;
+	font-size: 16px;
+}
+
+.boton{
+	background-color: #d9ab57;
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	border-radius: 2px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.boton:hover{
+	background-color: #e0d3c4;
+	color: black;
+	font-size: 16px;
+}
+
+
+@media only screen and (max-width: 892px) {
+  /* For mobile phones: */
+
+  .navegador li{
+    width: 100%;
+  }
+  .navegador{
+  	width: 99.59%;
+  	height: 80px;
+  	overflow: hidden;
+  }
+
+  .toggle{
+  	display: block;
+  	float: left;
+  	margin-left: 30%;
+  	padding: 6px;
+  	margin-top: -55.7px;
+  	transition: 0.8s;
+  }
+}
+
+@media only screen and (max-width: 892px) {
+  /* For mobile phones: */
+  .navegador .boton{
+    width: 87%;
+  }
+
+}
+
+.navegador.active{
+	height: auto;
+}
+
+
+.navegador.active .toggle{
+	transform: rotate(180deg);
+	transition: 0.8s;
+}
+
 picture{
     display: block;
     margin: 2% 5%;
@@ -248,8 +346,8 @@ picture{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1%;
     border-radius: 30px;
+    padding: 0px;
 }
 
 .descripcionp{

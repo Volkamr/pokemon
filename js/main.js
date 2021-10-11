@@ -1,3 +1,4 @@
+
 let pokemon1, pokemon2;
 let name1, name2;
 let ataque1, ataque2;
@@ -21,6 +22,7 @@ const colors = {
 	normal: '#e09f3e',
     ghost: '#e8dab2',
 };
+
 
 function duelo(){
     let aleatorio = Math.round(Math.random()*(100-1)+parseInt(1));;
@@ -142,4 +144,10 @@ function fondo(contenedor,id){
         const colorOne = colors[types[0].type.name];
         contenedor.style.backgroundColor =  colorOne;
     }
+}
+
+window.onload = function recargar(){
+    duelo();
+    equipo();
+    poketotal();
 }
